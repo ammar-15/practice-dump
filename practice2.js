@@ -66,3 +66,36 @@ function palindromeCheck(str) {
     }
 }
 console.log(palindromeCheck("ammar"));
+
+//calculate factorial
+function factorial(x) {
+    let result = 1;
+    for (let i = x; i > 0; i--) {
+      result *= i;
+    }
+    return result;
+  }
+console.log(factorial(4));
+
+//check if an element is in an array
+function inArray(array, x) {
+    return array.includes(x);
+}
+console.log(array, x)
+
+//fizzbuzz
+function fizzBuzz() {
+    for (let i = 1; i <= 100; i++) {
+      if (i % 3 === 0 && i % 5 === 0) {
+        console.log('FizzBuzz');
+      } else if (i % 3 === 0) {
+        console.log('Fizz');
+      } else if (i % 5 === 0) {
+        console.log('Buzz');
+      } else {
+        console.log(i);
+      }
+    }
+  }
+  fizzBuzz();
+  
