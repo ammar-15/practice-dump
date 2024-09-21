@@ -99,3 +99,32 @@ function fizzBuzz() {
   }
   fizzBuzz();
   
+//sum of all numbers in an array
+function sumArray(numArray) {
+    let sum = 0
+    for (i=0; i<numArray.length; i++) {
+        sum += numArray[i];
+    }
+    return sum;
+}
+x = [5,4,3]
+console.log(sumArray(x));
+//or
+function sumArray1(numArray1) {
+    return numArray1.reduce((acc, num) => acc + num, 0);
+}
+x2 = [2,3,4,3,2]
+console.log(sumArray1(x2));
+
+//remove duplicates from an array
+function dupArr1(numArr1) {
+    let newArr = [];
+    for (i=0;i<numArr1.length;i++) {
+        if (!newArr.includes(numArr1[i])) {
+            newArr.push(numArr1[i]); 
+        }   
+    }
+    return newArr;
+}
+numArr1 = [4,4,5,6,4,5,2]
+console.log(dupArr1(numArr1));
