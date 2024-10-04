@@ -1,5 +1,6 @@
 function MyHeading() {
   return (
+    <div className="nav_container">
     <nav className="nav_heading">
     <h1>This is a heading</h1>
     <div className="nav_items">
@@ -9,22 +10,21 @@ function MyHeading() {
     <ul>item4</ul>
     </div>
     </nav>
+    </div>
   );
 }
-
 function MyBody() {
   return(
-    <body>
+    <main>
       <div className="body_class">
         <button className="button_class">
           This is a button
         </button>
+        <p>this ia a sentence</p>
       </div>
-    </body>
+    </main>
   );
 }
-
-
 export default function MyApp() {
   return (
     <>
