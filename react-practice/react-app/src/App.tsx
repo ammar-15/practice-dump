@@ -11,7 +11,6 @@ function MyHeading() {
     </nav>
   );
 }
-
 function MyBody() {
   return(
     <body>
@@ -19,6 +18,7 @@ function MyBody() {
         <button className="button_class">
           This is a button
         </button>
+        <p>this ia a sentence</p>
       </div>
     </body>
   );
