@@ -1,7 +1,9 @@
+body {
+  margin: 0;
+}
 
 .nav_container {
   background-color: bisque;
-  border-radius: 20px;
   margin: 0px;
   width: 100%;
 }
@@ -28,4 +30,5 @@ main {
   justify-content: center;
   align-items: center;
   background-color: aqua;
+  height: 50vh;
 }
