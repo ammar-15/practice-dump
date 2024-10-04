@@ -1,20 +1,31 @@
+
+.nav_container {
+  background-color: bisque;
+  border-radius: 20px;
+  margin: 0px;
+  width: 100%;
+}
+
 .heading {
   display: flex;
   justify-content: center;
 }
+
 nav {
-  background-color: blanchedalmond;
   margin: 0;
   padding: 0px 20px;
   display: flex;
   justify-content: space-between;
 }
+
 .nav_items {
   display: flex;
   align-items: center;
 }
-.body_class {
+
+main {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: aqua;
 }
