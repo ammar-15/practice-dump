@@ -13,6 +13,10 @@ function MyHeading() {
       </div>
   );
 }
+function button() {
+  
+}
+
 function MyBody() {
   return (
     <main>
