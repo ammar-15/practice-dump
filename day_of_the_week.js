@@ -1,3 +1,5 @@
+//question: Implement a pure function from scratch to
+//calculate the day of the week by year, month and day.
 function day(day, month, year){
     let dictionary = {};
        dictionary[0] = "Saturday";
@@ -23,4 +25,4 @@ function day(day, month, year){
         }
         return dictionary[dayOfTheWeek(day,month,year)];
     }
-console.log(day(8, 10, 2024)); 
+console.log(day(2, 1, 1295)); //sample date 2nd January 1295
