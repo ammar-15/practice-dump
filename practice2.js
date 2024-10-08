@@ -130,7 +130,6 @@ numArr1 = [4,4,5,6,4,5,2]
 console.log(dupArr1(numArr1));
 
 //get the first two digits of a 4 digit number without Math.floor
-year = 2004
     var j = function reverseString(year) {
         strJ = year.toString(); //converts the year to string
         console.log(strJ);
