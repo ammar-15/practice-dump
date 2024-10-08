@@ -128,3 +128,25 @@ function dupArr1(numArr1) {
 }
 numArr1 = [4,4,5,6,4,5,2]
 console.log(dupArr1(numArr1));
+
+//get the first two digits of a 4 digit number without Math.floor
+year = 2004
+    var j = function reverseString(year) {
+        strJ = year.toString(); //converts the year to string
+        console.log(strJ);
+        revreseStrJ = strJ.split('').reverse().join('') //reverses the order of the year
+        console.log(revreseStrJ,"hii");
+        divisible = revreseStrJ%100; //gets the first two digits of the year (excluding the zero if its in the tens place)
+        console.log(divisible,"divisible");
+        revrsDivisibleStr = divisible.toString(); //converts it into string
+        console.log(revrsDivisibleStr, 'reverse div str');
+        revrsDivisible = revrsDivisibleStr.split('').reverse().join(''); //reverses the string back to its original order
+        console.log(revrsDivisible,"rev div");
+        if (revrsDivisible<10){ //if the year is 2004, its not 02 and simply 2 at this point in the function
+            return divisible*10;
+        }
+        else{
+        return revrsDivisible % 100;
+        }
+    }
+console.log(j(2004))
