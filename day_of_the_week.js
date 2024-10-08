@@ -1,3 +1,4 @@
+
 //question: Implement a pure function from scratch to
 //calculate the day of the week by year, month and day.
 function day(day, month, year){
